@@ -1,0 +1,83 @@
+body {
+  padding: 0px;
+}
+
+.clear {
+  clear: both;
+}
+
+.brand-logo {
+  margin-left: 10px;
+}
+
+div#hero {
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+  margin-bottom: 0px;
+  background: url('../images/bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.sidebar {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+
+@media (max-width:600px) {
+  .sidebar {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
+  }
+}
+
+.sidebar .content {
+  position: relative;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.sidebar .content #header {
+  padding: 0px 0px 40px 0px;
+  border-bottom: 2px dotted #616161;
+}
+
+.sidebar .content #tagline {
+  padding: 5px 0px 15px 0px;
+  border-bottom: 2px dotted #616161;
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 2px;
+}
+
+.sidebar .content #actions {
+  margin: 30px auto;
+  text-align: center;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
+.footer #social {
+  position: relative;
+  width: 85%;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.footer #social i {
+  display: inline;
+  font-size: 18pt;
+  margin-right: 25px;
+  color: #FFF;
+}
