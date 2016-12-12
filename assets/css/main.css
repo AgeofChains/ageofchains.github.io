@@ -6,6 +6,12 @@
     background-color: rgba(0, 0, 0, 0.2);
     height: 100%;
   }
+  .sidebar .content {
+    position: relative;
+    width: 85%;
+    top: -20px;
+    margin: 0 auto;
+  }
 }
 
 body {
