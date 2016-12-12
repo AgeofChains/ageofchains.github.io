@@ -1,3 +1,13 @@
+@media (max-width:600px) {
+  nav, .nav-mobile .nav-wrapper {
+    display: none !important;
+  }
+  .sidebar {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
+  }
+}
+
 body {
   padding: 0px;
 }
@@ -27,13 +37,6 @@ div#hero {
 .sidebar {
   background-color: rgba(0, 0, 0, 0.5);
   height: 100%;
-}
-
-@media (max-width:600px) {
-  .sidebar {
-    background-color: rgba(0, 0, 0, 0.2);
-    height: 100%;
-  }
 }
 
 .sidebar .content {
