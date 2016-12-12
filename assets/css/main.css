@@ -81,11 +81,18 @@ div#hero {
 }
 
 .sidebar .content #tagline {
-  padding: 5px 0px 15px 0px;
-  border-bottom: 2px dotted #616161;
   text-align: center;
   line-height: 40px;
   letter-spacing: 2px;
+}
+
+.sidebar .content #body {
+  padding: 0px 0px 20px 0px;
+  border-bottom: 2px dotted #616161;
+  font-size: 12pt;
+  text-align: center;
+  line-height: 25px;
+  letter-spacing: 1px;
 }
 
 .sidebar .content #actions {
