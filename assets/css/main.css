@@ -1,7 +1,4 @@
 @media (max-width:600px) {
-  nav, .nav-mobile .nav-wrapper {
-    display: none !important;
-  }
   .sidebar {
     background-color: rgba(0, 0, 0, 0.2);
     height: 100%;
@@ -38,6 +35,33 @@ div#hero {
   background-size: cover;
   height: 100%;
   width: 100%;
+}
+
+.updates {
+  position: absolute;
+  top: 60px;
+  right: 0px;
+  padding: 25px;
+  max-width: 400px;
+}
+
+.updates h4 {
+  padding: 0px 0px 10px 0px;
+  border-bottom: 1px dotted #f5f5f5;
+}
+
+.updates p {
+  max-width: 250px;
+  word-break: normal;
+}
+
+.updates li {
+  margin-bottom: 10px;
+}
+
+.updates .update {
+  margin-right: 10px;
+  margin-left: 0px;
 }
 
 .sidebar {
