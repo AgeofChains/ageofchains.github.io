@@ -11,6 +11,12 @@
   }
 }
 
+@media (max-height:700px) {
+  .sidebar .content #body {
+    display: none;
+  }
+}
+
 body {
   padding: 0px;
 }
