@@ -70,6 +70,15 @@ div#hero {
   margin-left: 0px;
 }
 
+.updates a {
+  border-bottom: 2px solid #ffd600;
+}
+
+.updates a:link {color: #ffffff; text-decoration: none; }
+.updates a:active {color: #ffffff; text-decoration: none; }
+.updates a:visited {color: #ffffff; text-decoration: none; }
+.updates a:hover {color: #ffffff; text-decoration: none; }
+
 .sidebar {
   background-color: rgba(0, 0, 0, 0.5);
   height: 100%;
