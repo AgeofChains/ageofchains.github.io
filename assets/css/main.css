@@ -155,14 +155,12 @@ div#hero {
 /* Cards.html CSS */
 
 #separator {
-  float: left;
-  position: absolute;
   background: url('../images/tau_the_time_traveller.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 30%;
+  height: 300px;
   width: 100%;
   text-align: center;
 }
