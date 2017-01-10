@@ -151,3 +151,26 @@ div#hero {
 .footer #social i:hover {
   color: #9e9e9e;
 }
+
+/* Cards.html CSS */
+
+#separator {
+  background: url('../images/tau_the_time_traveller.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  text-align: center;
+}
+
+#caption {
+  margin-top: -20px;
+  height: 150px;
+  text-align: center;
+}
+
+.card-content {
+  height: 200px;
+}
