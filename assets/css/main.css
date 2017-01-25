@@ -17,8 +17,13 @@
   }
 }
 
+ul#updates, #actions, ul#nav-mobile {
+  font-family: sans-serif;
+}
+
 body {
   padding: 0px;
+  font-family: 'Simonetta', cursive;
 }
 
 .clear {
@@ -41,19 +46,22 @@ div#hero {
   background-size: cover;
   height: 100%;
   width: 100%;
+
 }
 
 .updates {
   position: absolute;
+  margin-right: 5%;
   top: 60px;
   right: 0px;
   padding: 25px;
-  max-width: 400px;
+  max-width: 30%;
 }
 
 .updates h4 {
   padding: 0px 0px 10px 0px;
   border-bottom: 1px dotted #f5f5f5;
+  text-align: center;
 }
 
 .updates p {
@@ -71,13 +79,18 @@ div#hero {
 }
 
 .updates a {
-  border-bottom: 2px solid #ffd600;
+  border-bottom: 2px solid teal;
+  padding: 3px;
 }
 
 .updates a:link {color: #ffffff; text-decoration: none; }
 .updates a:active {color: #ffffff; text-decoration: none; }
 .updates a:visited {color: #ffffff; text-decoration: none; }
-.updates a:hover {color: #ffffff; text-decoration: none; }
+.updates a:hover {color: #ffffff; text-decoration: none; border-bottom: none; background-color: teal; border-radius: 12px;}
+
+
+
+
 
 .sidebar {
   background-color: rgba(0, 0, 0, 0.5);
@@ -174,3 +187,9 @@ div#hero {
 .card-content {
   height: 200px;
 }
+
+#actions a:hover {
+  background-color: transparent;
+  color: white;
+}
+
