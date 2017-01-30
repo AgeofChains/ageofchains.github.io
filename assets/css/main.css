@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@font-face {
+    font-family: 'Earth Orbiter';
+    src: url('../fonts/earthorbiter.woff2') format('woff2'),
+         url('../fonts/earthorbiter.woff') format('woff'),
+         url('../fonts/earthorbiter.ttf') format('ttf'),
+         url('../fonts/earthorbiter.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 @media (max-width:600px) {
   .sidebar {
     background-color: rgba(0, 0, 0, 0.2);
@@ -23,7 +35,8 @@ ul#updates, #actions, ul#nav-mobile {
 
 body {
   padding: 0px;
-  font-family: 'Simonetta', cursive;
+  font-family: 'Titillium Web', sans-serif;
+
 }
 
 .clear {
@@ -79,14 +92,14 @@ div#hero {
 }
 
 .updates a {
-  border-bottom: 2px solid teal;
+  border-bottom: 2px solid #8e24aa;
   padding: 3px;
 }
 
 .updates a:link {color: #ffffff; text-decoration: none; }
 .updates a:active {color: #ffffff; text-decoration: none; }
 .updates a:visited {color: #ffffff; text-decoration: none; }
-.updates a:hover {color: #ffffff; text-decoration: none; border-bottom: none; background-color: teal; border-radius: 12px;}
+.updates a:hover {color: #ffffff; text-decoration: none; border-bottom: none; background-color: #8e24aa; border-radius: 12px;}
 
 
 
@@ -193,3 +206,6 @@ div#hero {
   color: white;
 }
 
+h1, h2, h3 {
+  font-family: "Earth Orbiter";
+}
