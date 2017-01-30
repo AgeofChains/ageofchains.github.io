@@ -29,10 +29,6 @@
   }
 }
 
-ul#updates, #actions, ul#nav-mobile {
-  font-family: sans-serif;
-}
-
 body {
   padding: 0px;
   font-family: 'Titillium Web', sans-serif;
@@ -96,10 +92,10 @@ div#hero {
   padding: 3px;
 }
 
-.updates a:link {color: #ffffff; text-decoration: none; }
-.updates a:active {color: #ffffff; text-decoration: none; }
-.updates a:visited {color: #ffffff; text-decoration: none; }
-.updates a:hover {color: #ffffff; text-decoration: none; border-bottom: none; background-color: #8e24aa; border-radius: 12px;}
+.updates a:link {color: #F9F7F7; text-decoration: none; }
+.updates a:active {color: #F9F7F7; text-decoration: none; }
+.updates a:visited {color: #F9F7F7; text-decoration: none; }
+.updates a:hover {color: #F9F7F7; text-decoration: none; border-bottom: none; background-color: #8e24aa; border-radius: 12px;}
 
 
 
@@ -181,12 +177,6 @@ div#hero {
 /* Cards.html CSS */
 
 #separator {
-  background: url('../images/tau_the_time_traveller.jpg') no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 300px;
   width: 100%;
   text-align: center;
 }
@@ -208,4 +198,35 @@ div#hero {
 
 h1, h2, h3 {
   font-family: "Earth Orbiter";
+}
+
+h2.anchor-header {
+    float: left;
+    position: relative;
+    vertical-align: middle;
+    text-shadow: 3px 3px #ffab40;
+}
+
+div.card:hover {
+    box-shadow: 6px 6px 6px purple;
+}
+
+.card-content a {
+    color: purple;
+}
+
+.buy-card a {
+position: relative;
+background-color: inherit;
+padding: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+transition: color .3s ease;
+text-transform: uppercase;
+color: purple;
+font-size: 2em;
+}
+
+.buy-card a:hover {
+    color: #ffab40;
 }
