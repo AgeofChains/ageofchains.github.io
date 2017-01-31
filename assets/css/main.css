@@ -211,8 +211,24 @@ div.card:hover {
     box-shadow: 6px 6px 6px purple;
 }
 
+a.buy-card-whole {
+    color: #000;
+    
+}
+a.buy-card-whole:hover {
+    color: purple;
+}
+
 .card-content a {
     color: purple;
+}
+
+.card-content a:hover {
+    color: #ffab40;
+}
+
+h3.card-title {
+    text-shadow: 1px 1px 1px #ffab40;
 }
 
 .buy-card a {
@@ -227,6 +243,7 @@ color: purple;
 font-size: 2em;
 }
 
-.buy-card a:hover {
+.buy-card a:hover, a.buy-card-whole:hover {
     color: #ffab40;
 }
+
