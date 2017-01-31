@@ -92,9 +92,9 @@ div#hero {
   padding: 3px;
 }
 
-.updates a:link {color: #F9F7F7; text-decoration: none; }
-.updates a:active {color: #F9F7F7; text-decoration: none; }
-.updates a:visited {color: #F9F7F7; text-decoration: none; }
+.updates a:link {color: #F9F7F7; text-decoration: none; padding: 0px 8px 0px 8px;}
+.updates a:active {color: #F9F7F7; text-decoration: none; padding: 0px 8px 0px 8px;}
+.updates a:visited {color: #F9F7F7; text-decoration: none; padding: 0px 8px 0px 8px;}
 .updates a:hover {
   color: #F9F7F7;
   text-decoration: none;
