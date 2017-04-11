@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@font-face {
+    font-family: 'Earth Orbiter';
+    src: url('../fonts/earthorbiter.woff2') format('woff2'),
+         url('../fonts/earthorbiter.woff') format('woff'),
+         url('../fonts/earthorbiter.ttf') format('ttf'),
+         url('../fonts/earthorbiter.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media (max-width:600px) {
+  .sidebar {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
+  }
+  .sidebar .content {
+    position: relative;
+    width: 85%;
+    top: -20px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-height:700px) {
+  .sidebar .content #body {
+    display: none;
+  }
+}
+
+body {
+  padding: 0px;
+  font-family: 'Titillium Web', sans-serif;
+
+}
+
+.clear {
+  clear: both;
+}
+
+.brand-logo {
+  margin-left: 10px;
+}
+
+div#hero {
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+  margin-bottom: 0px;
+  background: url('../images/bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+
+}
+
+.updates {
+  position: absolute;
+  margin-right: 5%;
+  top: 60px;
+  right: 0px;
+  padding: 25px;
+  max-width: 30%;
+}
+
+.updates h4 {
+  padding: 0px 0px 10px 0px;
+  border-bottom: 1px dotted #f5f5f5;
+  text-align: center;
+}
+
+.updates p {
+  max-width: 250px;
+  word-break: normal;
+}
+
+.updates li {
+  margin-bottom: 10px;
+}
+
+.updates .update {
+  margin-right: 10px;
+  margin-left: 0px;
+}
+
+.updates a {
+  border-bottom: 2px solid #8e24aa;
+  padding: 3px;
+}
+
+.updates a:link {color: #F9F7F7; text-decoration: none; padding: 0px 8px 0px 8px;}
+.updates a:active {color: #F9F7F7; text-decoration: none; padding: 0px 8px 0px 8px;}
+.updates a:visited {color: #F9F7F7; text-decoration: none; padding: 0px 8px 0px 8px;}
+.updates a:hover {
+  color: #F9F7F7;
+  text-decoration: none;
+  border-bottom: none;
+  background-color: #8e24aa;
+  border-radius: 12px;
+  padding: 0px 8px 0px 8px;
+}
+
+.sidebar {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+
+.sidebar .content {
+  position: relative;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.sidebar .content #header {
+  padding: 0px 0px 40px 0px;
+  border-bottom: 2px dotted #616161;
+}
+
+.sidebar .content #tagline {
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 2px;
+}
+
+.sidebar .content #body {
+  padding: 0px 0px 20px 0px;
+  border-bottom: 2px dotted #616161;
+  font-size: 12pt;
+  text-align: center;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+.sidebar .content #actions {
+  margin: 45px auto;
+  text-align: center;
+}
+
+.sidebar .content #actions #inline {
+  position: relative;
+  top: 10px;
+  display: inline;
+}
+
+.sidebar .content #actions #inline a {
+  margin: 10px;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
+.footer #social {
+  position: relative;
+  width: 85%;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.footer #social i {
+  display: inline;
+  font-size: 18pt;
+  margin: 15px;
+  color: #FFF;
+}
+
+.footer #social i:hover {
+  color: #8e24aa;
+}
+
+/* Cards.html CSS */
+
+#separator {
+  width: 100%;
+  text-align: center;
+}
+
+#caption {
+  margin-top: -20px;
+  height: 150px;
+  text-align: center;
+}
+
+.card-content {
+  height: 200px;
+}
+
+#actions a:hover {
+  background-color: transparent;
+  color: white;
+}
+
+h1, h2, h3 {
+  font-family: "Earth Orbiter";
+}
+
+h2.anchor-header {
+    float: left;
+    position: relative;
+    left: 15px;
+    vertical-align: middle;
+    text-shadow: 3px 3px #ffab40;
+}
+
+div.card:hover {
+    box-shadow: 4px 4px 4px purple;
+}
+
+a.buy-card-whole {
+    color: #000;
+
+}
+a.buy-card-whole:hover {
+    color: purple;
+}
+
+.card-content a {
+    color: purple;
+}
+
+.card-content a:hover {
+    color: #ffab40;
+}
+
+h3.card-title {
+    text-shadow: 1px 1px 1px #ffab40;
+}
+
+.buy-card a {
+position: relative;
+background-color: inherit;
+padding: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+transition: color .3s ease;
+text-transform: uppercase;
+color: purple;
+font-size: 2em;
+}
+
+.buy-card a:hover, a.buy-card-whole:hover {
+    color: #ffab40;
+}
