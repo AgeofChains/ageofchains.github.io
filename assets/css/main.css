@@ -47,7 +47,6 @@ div#hero {
   top: 0px;
   z-index: -1;
   margin-bottom: 0px;
-  background: url('../images/bg.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -129,9 +128,10 @@ div#hero {
   padding: 0px 0px 20px 0px;
   border-bottom: 2px dotted #616161;
   font-size: 12pt;
-  text-align: center;
+  text-align: justify;
   line-height: 25px;
   letter-spacing: 1px;
+  margin-bottom: 32px;
 }
 
 .sidebar .content #actions {
@@ -148,7 +148,6 @@ div#hero {
 .sidebar .content #actions #inline a {
   margin: 10px;
 }
-
 
 .footer {
   position: absolute;
@@ -189,11 +188,6 @@ div#hero {
   text-align: center;
 }
 
-#actions a:hover {
-  background-color: transparent;
-  color: white;
-}
-
 h1, h2, h3 {
   font-family: "Earth Orbiter";
 }
@@ -210,6 +204,10 @@ h2.anchor-header {
 
 div.card:hover {
     box-shadow: 4px 4px 4px purple;
+}
+
+.btn {
+  margin-top: 16px;
 }
 
 .buy-card {
@@ -251,3 +249,26 @@ font-size: 1em;
 .buy-card a:hover, a.buy-card-whole:hover {
     color: #ffab40;
 }
+
+#background_cycler {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#background_cycler .img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+#background_cycler .img.active { z-index: 3; }

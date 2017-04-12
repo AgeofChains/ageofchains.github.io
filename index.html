@@ -7,16 +7,22 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="google-site-verification" content="wLW8yqZA9IGrqwc9jh80Djd2PGZUCKQlF5QAxDmC9lg" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+		<link rel="stylesheet" href="assets/css/main.css" />
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<script type="text/javascript">
+		$(function(){
+			$('#background_cycler').hide();
+		});
+		</script>
 	</head>
 	<body>
     <nav class="hide-on-med-and-down">
       <div class="nav-wrapper purple 600" style="float: left; width: 100%;">
           <ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a class="white-text text-darken-1" href="game.html">The Game</a></li>
           <li><a class="white-text text-darken-1" href="cards.html">Card Shop</a></li>
 					<li><a class="white-text text-darken-1" href="team.html">Team</a></li>
 					<li><a class="white-text text-darken-1" href="https://medium.com/@ageofchains" target="_blank">Blog</a></li>
@@ -26,21 +32,31 @@
       </div>
     </nav>
     <div class="row" id="hero">
-      <div class="col s12 m6 l4 sidebar valign-wrapper white-text">
-        <div class="content valign">
-          <h3 class="center-align" id="header">Age of Chains</h3>
-          <h5 id="tagline">Age of Chains is a trading card based video game that plays in a cosmic setting</h5>
-          <p class="hide-on-small-only" id="body">Inspired by Magic: The Gathering and Hearthstone, Age of Chains looks to go beyond known game dynamics to offer a truly unique and hooking gaming experience</p>
-          <div id="actions">
-            <a class="waves-effect waves-dark btn btn-large purple 600 white-text" href="cards.html">Card shop</a>
-            <br />
-            <div id="inline">
-              <a class="waves-effect waves-dark btn purple 600 white-text" href="team.html" target="_blank">Meet the team</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col s12 m6 l4 footer white-text">
+			<div id="background_cycler">
+				<div class="img active" style="background:url('assets/images/woodcoin_guardian.jpg') top left no-repeat; background-size:cover;"></div>
+				<div class="img" style="background:url('assets/images/tau_the_time_traveller.jpg') top left no-repeat; background-size:cover;"></div>
+				<div class="img" style="background:url('assets/images/lourn_hidden_defender_of_monero.jpg') top left no-repeat; background-size:cover;"></div>
+				<div class="img" style="background:url('assets/images/electrum.jpg') top left no-repeat; background-size:cover;"></div>
+				<div class="img" style="background:url('assets/images/galaxy_board.jpg') top left no-repeat; background-size:cover;"></div>
+				<div class="img" style="background:url('assets/images/meteora_board.jpg') top left no-repeat; background-size:cover;"></div>
+			</div>
+			<div class="col s12 m6 l4 sidebar valign-wrapper white-text">
+				<div class="content valign">
+					<h1 class="center-align" id="header">Age of Chains</h1>
+					<h5 id="tagline">Age of Chains is a trading card based video game that plays in a cosmic setting</h5>
+					<p class="hide-on-small-only" id="body">
+						Inspired by Magic: The Gathering and Hearthstone, Age of Chains looks to go beyond known game dynamics to offer a truly unique and hooking gaming experience.
+					<br>
+					<a class="waves-effect waves-dark btn btn-large purple 600 white-text center-align" href="game.html">Learn more</a>
+					</p>
+					<p class="hide-on-small-only" id="body">
+						Support the development of the game by buying the first cards ! These powerful cards will have very low drop rates.
+					<br>
+					<a class="waves-effect waves-dark btn btn-large purple 600 white-text" href="cards.html">Card shop</a>
+					</p>
+				</div>
+			</div>
+			<div class="col s12 m6 l4 footer white-text">
         <section id="social">
           <div class="center-align">
 						<a href="https://medium.com/@ageofchains" target="_blank">
@@ -53,9 +69,9 @@
               <i class="fa fa-github-alt" aria-hidden="true"></i>
             </a>
           </div>
-        </social>
+        </section>
       </div>
-    </div>
+		</div>
     <div class="updates white-text hide-on-med-and-down">
       <h4>Updates</h4>
       <a class="twitter-timeline" href="https://twitter.com/ageofchains">Tweets by ageofchains</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -64,4 +80,5 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
   <script src="https://use.fontawesome.com/e82413c52e.js"></script>
+	<script src="assets/js/slideshow.js"></script>
 </html>
