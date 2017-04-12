@@ -1,13 +1,17 @@
 url: http://www.ageofchains.com/
 source: https://github.com/AgeofChains/ageofchains.github.io
+graphic guideline: https://drive.google.com/drive/folders/0B3LPQyawbyh5M1ZlZ2FJU3lhOW8
 
 TODO
 
-- overview of project and team
+- overview of project
+- team page : need pictures, bios, social links
 - card sale section with live card sale counters
-- updates section with tool for killian to post updates
-- graphic guideline : https://drive.google.com/drive/folders/0B3LPQyawbyh5M1ZlZ2FJU3lhOW8
+- updates section with tool for kilian to post updates
 - homepage : rotation of card illustrations every 7 seconds
+- add favicon
+- remove updates
+- add twitter timeline instead, ideally with a bot posting from slack
 
 
 Tools / platforms to add and brand
