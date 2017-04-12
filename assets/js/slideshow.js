@@ -11,5 +11,5 @@ function cycleImages(){
 $(window).on('load', function(){
   $('#background_cycler').fadeIn(1000);//fade the background back in once all the images are loaded
   // run every 5s
-  setInterval('cycleImages()', 4000);
+  setInterval('cycleImages()', 7000);
 });

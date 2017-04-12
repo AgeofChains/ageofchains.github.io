@@ -7,11 +7,14 @@ TODO
 - overview of project
 - team page : need pictures, bios, social links
 - card sale section with live card sale counters
-- updates section with tool for kilian to post updates
-- homepage : rotation of card illustrations every 7 seconds
+- homepage : rotation of card illustrations every 7 seconds (change from 4)
 - add favicon
-- remove updates
-- add twitter timeline instead, ideally with a bot posting from slack
+- configure twitter bot posting from slack
+
+Also, I feel there is too much stuff happening on the left side. All the text above "Learn More" Can be replaced by "Blockchain based Trading Card Game"
+
+
+And let us replace "Learn More" with "Participate" and link it to the BCT-Thread
 
 
 Tools / platforms to add and brand
