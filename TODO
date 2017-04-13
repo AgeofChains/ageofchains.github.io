@@ -2,19 +2,16 @@ url: http://www.ageofchains.com/
 source: https://github.com/AgeofChains/ageofchains.github.io
 graphic guideline: https://drive.google.com/drive/folders/0B3LPQyawbyh5M1ZlZ2FJU3lhOW8
 
+
 TODO
 
-- overview of project
+- add analytics
+- add favicon (cf logo)
+- card sale section : add 3 new cards
+- IFTT : published tweets appear in #community slack chan
 - team page : need pictures, bios, social links
-- card sale section with live card sale counters
-- homepage : rotation of card illustrations every 7 seconds (change from 4)
-- add favicon
-- configure twitter bot posting from slack
-
-Also, I feel there is too much stuff happening on the left side. All the text above "Learn More" Can be replaced by "Blockchain based Trading Card Game"
-
-
-And let us replace "Learn More" with "Participate" and link it to the BCT-Thread
+- add live card sale counters (cf SOGassets)
+- overview of project
 
 
 Tools / platforms to add and brand
