@@ -32,6 +32,21 @@
 
 #background_cycler .img.active { z-index: 3; }
 
+.gradient {
+  background-image: -webkit-gradient(
+	linear,
+	left top,
+	left top,
+	color-stop(0, #E80E7E),
+	color-stop(1, #344087)
+  );
+  background-image: -o-linear-gradient(left top, #E80E7E 0%, #344087 100%);
+  background-image: -moz-linear-gradient(left top, #E80E7E 0%, #344087 100%);
+  background-image: -webkit-linear-gradient(left top, #E80E7E 0%, #344087 100%);
+  background-image: -ms-linear-gradient(left top, #E80E7E 0%, #344087 100%);
+  background-image: linear-gradient(to left top, #E80E7E 0%, #344087 100%);
+}
+
 @media (max-width:600px) {
   .sidebar {
     background-color: rgba(0, 0, 0, 0.2);
@@ -219,7 +234,6 @@ h2.anchor-header {
     position: relative;
     left: 15px;
     vertical-align: middle;
-    text-shadow: 3px 3px #ffab40;
     font-size: 2rem;
     margin-top: 16px;
 }
