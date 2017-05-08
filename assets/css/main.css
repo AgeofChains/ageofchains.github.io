@@ -140,6 +140,10 @@ div#hero {
   padding: 0px 8px 0px 8px;
 }
 
+.twitter-timeline {
+  max-height: 640px;
+}
+
 .sidebar {
   background-color: rgba(0, 0, 0, 0.5);
   height: 100%;
